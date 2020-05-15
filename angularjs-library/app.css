@@ -1,0 +1,50 @@
+.container-planeta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  width: 100%;
+  height: 80px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.marte {
+  background-color: rgb(208, 67, 42);
+}
+
+.pluton {
+  background-color: rgb(176, 171, 171);
+}
+
+.tierra {
+  justify-content: space-between;
+  background-color: rgb(25, 125, 25);
+}
+
+.select-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 40px;
+  border: 3px solid palevioletred;
+  position: relative;
+}
+
+.select-show {
+  display: block;
+  z-index: 2;
+  background-color: skyblue;
+  position: absolute;
+  top: 240px;
+}
+
+.select-hidden {
+  display: none;
+}
+
+.tierra-box {
+  padding-left: 60px;
+  padding-right: 60px;
+}

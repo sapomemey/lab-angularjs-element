@@ -1,0 +1,1 @@
+In this workspace loaded angularjs component in application angular 2+

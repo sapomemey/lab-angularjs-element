@@ -1,0 +1,12 @@
+:host {
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+    p {
+      font-size: xx-large;
+    }
+  }
+}
